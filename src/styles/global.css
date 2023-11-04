@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 /* CSS hack using multiple box-shadows to get them **Stars** */
+.logo_text {
+  @apply sm:hidden font-semibold text-lg text-black tracking-wide;
+}

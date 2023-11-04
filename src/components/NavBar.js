@@ -3,6 +3,9 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
+import Image from 'next/image'
+import logo from '../../public/flight pro logo.png'
+import logo2 from '../../public/flight-Pro.png'
 
 const CustomLink = ({ href, title, className = '' }) => {
   const router = useRouter()
@@ -57,7 +60,7 @@ const NavBar = () => {
     setIsOpen(!isOpen)
   }
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8 ">
+    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8 border-b border-orange">
       <button
         className=" flex-col justify-center items-center hidden lg:flex mb-2"
         onClick={handleClick}
@@ -79,10 +82,32 @@ const NavBar = () => {
         ></span>
       </button>
       {/* full size navbar */}
+
       <div className="w-full flex justify-between items-center lg:hidden">
-        <nav>
-          <CustomLink href="/" title="Home" className="mr-4" />
-          <CustomLink href="/aaPage" title="Flight Details" className="mx-4" />
+        <nav className="w-full flex justify-between items-center">
+          <div className="flex items-center">
+            {/* Logo on the left-hand side */}
+            <Link href="/" className="flex gap-2 flex-center">
+              <Image
+                src={logo2}
+                width={50}
+                height={50}
+                className="object-contain rounded-full"
+                alt="flight pro"
+              />
+              <p className="logo_text mt-3">Flight Pro</p>
+            </Link>
+          </div>
+
+          {/* Links on the far right */}
+          <div className="flex justify-between">
+            <CustomLink href="/" title="Home" className="ml-4" />
+            <CustomLink
+              href="/aaPage"
+              title="Flight Details"
+              className="ml-4"
+            />
+          </div>
         </nav>
       </div>
 
@@ -108,8 +133,6 @@ const NavBar = () => {
               toggle={handleClick}
             />
           </nav>
-
-          <nav className="flex items-center justify-center flex-wrap mt-2 "></nav>
         </motion.div>
       ) : null}
     </header>
