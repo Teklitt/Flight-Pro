@@ -47,7 +47,7 @@ The main target customers are:
 **...tell the world who you and your team are 🙂**
 * Shaimeira Meekins (C5TN976)
 * Oluwanifemi Mebude (L9FP976)
-* Leron Joyner ()
+* Leron Joyner (B72BU62)
 * Clyde Baidoo (B2KT974)
 * Ebunoluwa Oludemi (U2VR978)
 
