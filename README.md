@@ -13,8 +13,9 @@ Flight-Pro
 
 ## Challenge Statement(s) Addressed 🎯
 **...include the challenge statement(s) the project worked to address**
-* How do improve customer experience (AAdvantage Members) with tight schedules by helping relative to possible
-  flight delay and cancellations?
+* How will American Airline profit from this innovation?
+* How do we improve customer experience (AAdvantage Members with tight schedules) by providing re-accommoddation
+  assistances relative to possible flight delay and cancellations?
 * How do we increase customer loyalty?
 * How might we decrease customer dissatisfaction and profit losses?
 
@@ -24,7 +25,7 @@ Flight-Pro
 * A state of the art flight app that helps AAdvantage premium customers to track possible flight delays and cancellations 
 24hours to departure. 
 * The app uses flight delay prediction API to make predictions with percentage accuracies.
-* Based on the predictions, the app gives them options to get alternate flight with shorter routes and cheaper rates
+* Based on the predictions, the app gives them options to get alternate flight with shorter routes and cheaper rates with American Airines
 
   
 ## Project Value 💰
