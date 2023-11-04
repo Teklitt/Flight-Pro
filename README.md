@@ -22,11 +22,10 @@ Flight-Pro
     
 ## Project Description 🤯
 **....at lease 3 sentences describing what the project does and how it works**
-* A state of the art flight app that helps AAdvantage premium customers to track possible flight delays and cancellations 
-24hours to departure. 
+* Web app that predicts as well as allows the user the benefit of viewing what they can do for when their flight is delayed.
+* App is only available to AAdvantage members. 
 * The app uses flight delay prediction API to make predictions with percentage accuracies.
-* Based on the predictions, the app gives them options to get alternate flight with shorter routes and cheaper rates with American Airines
-
+  
   
 ## Project Value 💰
 **....at lease 3 sentences describing your target customer and tangible benefits from your solution**
