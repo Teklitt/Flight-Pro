@@ -200,7 +200,7 @@ const Home = (props) => {
             <div className="home-container3">
               <div className="home-container4"></div>
               <div className="home-container5 ">
-               <div className='flex grid grid-cols-1 grid-rows-3 gap-4 mt-52 mb-10 justify-center items-center'>
+               <div className=' grid grid-cols-1 grid-rows-3 gap-4 mt-52 mb-10 justify-center items-center'>
                   <div><input
                     type="text"
                     id="flight_number"
@@ -213,9 +213,11 @@ const Home = (props) => {
                     placeholder="MM/DD/YY"
                     className="input"
                   /></div>
-                  <div><button type="submit" className="button">
+                  <div>
+                    <Link href="/aaPage"><button type="submit" className="button">
               Submit
-            </button></div>
+            </button></Link>
+                    </div>
               </div>
             </div>
             <div className="home-container6"></div>
@@ -228,7 +230,10 @@ const Home = (props) => {
             <h1 className="home-banner-heading heading2">
               Stay Informed, Stay Ahead
             </h1>
-            <button className="home-banner-button button">Learn More</button>
+            
+            <a href="#Details" className="home-banner-button button">
+                  Learn More →
+                </a>
           </div>
         </div>
         <div className="home-faq"></div>
