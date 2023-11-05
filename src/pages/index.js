@@ -18,7 +18,7 @@ export default function Home() {
         <Layout className="relative w-full">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="absolute -z-10 w-full">
-              <Image src={bg} alt="Backround image" className='w-full' width={1000} height={1000}/>
+              <Image src={bg} alt="Backround image" className='w-full ' width={1000} height={1000}/>
 
 
               {/* Your home page content goes here */}

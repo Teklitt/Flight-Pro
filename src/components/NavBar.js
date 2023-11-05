@@ -5,7 +5,6 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Image from 'next/image'
 import logo from '../../public/flight pro logo.png'
-import logo2 from '../../public/flight_pro_logo-removebg-preview.png'
 
 const CustomLink = ({ href, title, className = '' }) => {
   const router = useRouter()
@@ -87,13 +86,14 @@ const NavBar = () => {
         <nav className="w-full flex justify-between items-center">
           <div className="flex items-center">
             {/* Logo on the left-hand side */}
-            <Link href="/" className="flex gap-2 flex-center">
+            <Link href="/" className="flex gap-2 flex-center mb-10">
               <Image
                 src={logo}
                 width={300}
                 height={300}
                 className=""
                 alt="flight pro"
+                
               />
               
             </Link>
