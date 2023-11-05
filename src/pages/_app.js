@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
       <main
         className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}
       >
-        <NavBar />
+        
         <Component key={router.asPath} {...pageProps} />
         <Footer />
       </main>
