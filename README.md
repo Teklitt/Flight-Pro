@@ -30,6 +30,7 @@ Flight-Pro
 ## Project Value 💰
 **....at lease 3 sentences describing your target customer and tangible benefits from your solution**
 The main target customers are:
+* American Airlines 
 * AAdvantage Members
 * Premimum Members
   
@@ -47,7 +48,7 @@ The main target customers are:
 **...tell the world who you and your team are 🙂**
 * Shaimeira Meekins (C5TN976)
 * Oluwanifemi Mebude (L9FP976)
-* Leron Joyner (B72BU62)
+* Lerone Joyner (B72BU62)
 * Clyde Baidoo (B2KT974)
 * Ebunoluwa Oludemi (U2VR978)
 
@@ -63,6 +64,6 @@ Code Bears
 **...point us to where you tell us about your solution 😄**
 
 ### Link to Demo Presentation 📽
-**...point us to your PPT or Canva slides 😍**
+**...[https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAATechCulture%2FFlight-Pro%2Fmain%2FFlight-Pro%2520Presentation%2520Slides.pptx&wdOrigin=BROWSELINK]: Presentation Slides 😍**
 
 
