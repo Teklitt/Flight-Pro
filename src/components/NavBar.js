@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Image from 'next/image'
 import logo from '../../public/flight pro logo.png'
-import logo2 from '../../public/flight-Pro.png'
+import logo2 from '../../public/flight_pro_logo-removebg-preview.png'
 
 const CustomLink = ({ href, title, className = '' }) => {
   const router = useRouter()
@@ -60,7 +60,7 @@ const NavBar = () => {
     setIsOpen(!isOpen)
   }
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8 border-b border-orange">
+    <header className="w-full px-32 py-0 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
       <button
         className=" flex-col justify-center items-center hidden lg:flex mb-2"
         onClick={handleClick}
@@ -89,13 +89,13 @@ const NavBar = () => {
             {/* Logo on the left-hand side */}
             <Link href="/" className="flex gap-2 flex-center">
               <Image
-                src={logo2}
-                width={50}
-                height={50}
-                className="object-contain rounded-full"
+                src={logo}
+                width={300}
+                height={300}
+                className=""
                 alt="flight pro"
               />
-              <p className="logo_text mt-3">Flight Pro</p>
+              
             </Link>
           </div>
 
