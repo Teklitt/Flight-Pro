@@ -30,9 +30,10 @@ Flight-Pro
 ## Project Value 💰
 **....at lease 3 sentences describing your target customer and tangible benefits from your solution**
 The main target customers are:
-* American Airlines 
 * AAdvantage Members
 * Premimum Members
+  (To improve customer loyalty and retention rate)
+
   
 
 ## Tech Overview 💻
