@@ -18,7 +18,6 @@ The main target customers are:
   
 
 ## Tech Overview 💻
-**... what tech was used to bring this project to life?**
 * Next.js
 * React.js
 * HTML, CSS and Javascript
