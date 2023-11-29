@@ -4,9 +4,7 @@ Flight-Pro
 
     
 ## Project Description 🤯
-* Web app that predicts as well as allows the user the benefit of viewing what they can do for when their flight is delayed.
-* App is only available to AAdvantage members. 
-* The app uses flight delay prediction API to make predictions with percentage accuracies.
+* Introducing Flight Pro, an exclusive web application designed for AAdvantage members, offering unparalleled insights and convenience for moments when flight delays disrupt your plans. This sophisticated app not only predicts potential flight delays but also empowers users with a comprehensive view of their available options in the event of disruptions
   
   
 ## Project Value 💰
